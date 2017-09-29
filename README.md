@@ -4,6 +4,8 @@ This is test project to show that Ionic is at this moment not handling the keybo
 
 ### Installation
 
+you only need to add **sudo** if your not using nvm, but you should :)
+
 ```bash
 $ (sudo) npm install -g ionic cordova
 ```
