@@ -1,5 +1,6 @@
 {
   "name": "formtest_ionic",
-  "app_id": "",
-  "type": "ionic-angular"
+  "app_id": "8d2cd46c",
+  "type": "ionic-angular",
+  "integrations": {}
 }
