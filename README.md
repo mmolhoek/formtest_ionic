@@ -1,4 +1,4 @@
-This is test project to show that Ionic is at this moment not handling the keyboard / input elements correctly on iOS/Android
+This is test project to show that Ionic is at this moment not handling the keyboard / input elements correctly on iOS
 Referring Ionic issue can be found [here](https://github.com/ionic-team/ionic/issues/6228)
 
 ## How to use this project
@@ -15,12 +15,6 @@ $ (sudo) npm install -g ionic cordova
 
 ```bash
 $ ionic cordova run ios # your might want to add this #  --livereload -- --developmentTeam="<your development time id>" --codeSignIdentity="iPhone Developer"
-```
-
-### To run it on Android
-
-```bash
-$ ionic cordova run android
 ```
 
 ### last test ionic version info
@@ -52,3 +46,12 @@ Misc:
 You will see the interface that you get when you start a blank project, but with lots of input fields added.
 I got the fields from [this](https://github.com/dylanvdmerwe/ionic2-formtest) gitrepo (thank you dylan)
 but create a new project as his was getting a bit dated :)
+
+I have added two super simple counters to the header of the page to show when the this.keyboard.onKeyboardShow()
+and this.keyboard.onKeyboardHide() are being triggered.
+
+You will also see in the home.ts that I use ChangeDetectorRef.detectChanges(), so angular knows it has to do change detection
+
+**This was an eye opener for me, as I did not realise angular was not aware of this change**
+
+If you comment the bit of code ```this.ref.detectChanges()``` your will see the counters **don't update** properly

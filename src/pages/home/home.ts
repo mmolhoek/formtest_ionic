@@ -17,11 +17,11 @@ export class HomePage implements OnDestroy {
       if (this.platform.is('cordova')) {
         this.keyboardShowSubscription = this.keyboard.onKeyboardShow().subscribe(()=>{
             this.keyboardShowCounter++;
-            ref.detectChanges();
+            this.ref.detectChanges();
         })
         this.keyboardHideSubscription = this.keyboard.onKeyboardHide().subscribe(()=>{
             this.keyboardHideCounter++;
-            ref.detectChanges();
+            this.ref.detectChanges();
         })
       }
     })
