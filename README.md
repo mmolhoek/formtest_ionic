@@ -20,3 +20,26 @@ $ ionic cordova run ios # your might want to add this #  --livereload -- --devel
 $ ionic cordova run android
 ```
 
+### last test ionic version info
+
+```bash
+cli packages: (/Users/mischa/.nvm/versions/node/v7.5.0/lib/node_modules)
+
+    @ionic/cli-utils  : 1.12.0
+    ionic (Ionic CLI) : 3.12.0
+
+local packages:
+
+    @ionic/app-scripts : 3.0.0
+    Ionic Framework    : ionic-angular 3.7.0
+
+System:
+
+    Node : v7.5.0
+    npm  : 4.1.2
+    OS   : macOS Sierra
+
+Misc:
+
+    backend : pro
+```
