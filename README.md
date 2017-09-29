@@ -1,4 +1,5 @@
 This is test project to show that Ionic is at this moment not handling the keyboard / input elements correctly on iOS/Android
+Referring Ionic issue can be found [here](https://github.com/ionic-team/ionic/issues/6228)
 
 ## How to use this project
 
@@ -48,8 +49,6 @@ Misc:
 
 ### What will you see?
 
-You will see the interface that you get when you start a blnk project, but with lots of input fields added.
-I got the fields from [ https://github.com/dylanvdmerwe/ionic2-formtest | this] gitrepo (thank you dylan)
-but create a new project as his is getting a bit dated :)
-
-Refering ionic isseu can be found [ https://github.com/ionic-team/ionic/issues/6228 | here ]
+You will see the interface that you get when you start a blank project, but with lots of input fields added.
+I got the fields from [this](https://github.com/dylanvdmerwe/ionic2-formtest) gitrepo (thank you dylan)
+but create a new project as his was getting a bit dated :)
