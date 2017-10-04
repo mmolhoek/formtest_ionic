@@ -55,3 +55,5 @@ You will also see in the home.ts that I use ChangeDetectorRef.detectChanges(), s
 **This was an eye opener for me, as I did not realise angular was not aware of this change**
 
 If you comment the bit of code ```this.ref.detectChanges()``` your will see the counters **don't update** properly
+
+I have linked to this repo from my [comment](https://github.com/ionic-team/ionic/issues/6228#issuecomment-333166249) at the issue of ionic that show the status of this problem
